@@ -1,0 +1,25 @@
+.max-height-645 {
+  max-height: 645px;
+}
+
+/* Barra de scroll para navegadores basados en Webkit (Chrome, Safari) */
+.custom-scrollbar {
+  overflow-y: scroll; /* Siempre muestra el scroll vertical */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 16px; /* Ancho de la barra de scroll */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0; /* Color del "thumb" (el control que se arrastra) */
+  border-radius: 4px; /* Borde redondeado */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #f5f5f5; /* Color del fondo de la pista de scroll */
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none; /* Elimina las flechas */
+}

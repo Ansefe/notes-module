@@ -1,0 +1,25 @@
+.height-61 {
+  height: 61px;
+}
+
+.footer {
+  height: 228px;
+}
+
+.min-width-228 {
+  min-width: 228px;
+}
+
+.min-width-1212 {
+  min-width: 1212px;
+}
+
+.noteContainer {
+  min-width: 1212px;
+  padding-left: 26px;
+}
+
+.header {
+  padding-top: 16px;
+  padding-left: 18px;
+}
