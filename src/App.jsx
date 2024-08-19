@@ -76,9 +76,9 @@ function App() {
           </defs>
         </svg>
       </div>
-      <div className="d-flex ">
-        <div className="bg-secondary min-width-228 w-100">Hola</div>
-        <div className="min-width-1212">
+      <div className="d-flex w-100">
+        <div className="bg-secondary min-width-228">Hola</div>
+        <div className="min-width-1212 w-100">
           <div className="noteContainer">
             <h4>Acme Brick Employer Notes</h4>
             <FilterNavBar
