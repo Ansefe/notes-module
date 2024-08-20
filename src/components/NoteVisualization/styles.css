@@ -1,0 +1,106 @@
+.edit-buttons {
+  padding-right: 28px;
+  margin-bottom: 49px;
+  margin-top: 31px;
+  column-gap: 15px;
+  max-height: 28px;
+}
+
+.delete-button {
+  padding: 4px 8px !important;
+  column-gap: 8px;
+  font-size: 14px;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
+}
+
+.edit-button {
+  padding: 4px 8px;
+  column-gap: 8px;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+}
+
+.employer-name {
+  font-size: 20px;
+  line-height: 18.2px;
+  letter-spacing: -0.4px;
+}
+
+.last-edit {
+  font-size: 14px;
+  color: #6c757d;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
+}
+
+.note-visualization-container {
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+.employer-date-container {
+  margin-bottom: 30px;
+}
+
+.note-content {
+  font-size: 14px;
+  line-height: 18.2px;
+  color: #495057;
+  letter-spacing: -0.28px;
+}
+
+.note-content {
+  font-size: 14px;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
+}
+
+.remaining-char {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.24px;
+  margin-bottom: 25px;
+}
+
+.end-buttons {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.24px;
+  column-gap: 15px;
+}
+
+.cancel-btn {
+  font-size: 14px;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
+  padding: 4px 8px;
+}
+
+.save-btn {
+  font-size: 14px;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
+  padding: 4px 8px;
+}
+
+.employer-input {
+  margin-top: 108px;
+  margin-bottom: 30px;
+}
+
+.no-note-selected {
+  height: 100%;
+}
+
+.textarea {
+  border-color: #6c757d;
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 8px 12px 8px 12px;
+  font-size: 14px;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
+  width: 100%;
+  margin-bottom: 4px;
+}

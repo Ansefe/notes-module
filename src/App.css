@@ -10,16 +10,26 @@
   min-width: 228px;
 }
 
-.min-width-1212 {
-  min-width: 1212px;
-}
-
 .noteContainer {
   min-width: 1212px;
-  padding-left: 26px;
 }
 
-.header {
-  padding-top: 16px;
-  padding-left: 18px;
+.employer-title {
+  padding-left: 25px;
+  padding-right: 28px;
+  padding-top: 14px;
+  padding-bottom: 20px;
+}
+
+.employer-notes {
+  font-size: 28px;
+  line-height: 36.4px;
+  letter-spacing: -0.56px;
+  color: #212529;
+}
+
+.view-details {
+  font-size: 14px;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
 }

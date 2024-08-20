@@ -1,13 +1,16 @@
 import PropTypes from "prop-types";
 import { menuOptions } from "../utils/constants";
+import "./styles.css";
 
 const FilterNavBar = ({ activeTab, handleClickTab }) => (
-  <div className="container pl-2">
-    <ul className="nav nav-tabs px-4">
+  <div className="">
+    <ul className="nav nav-tabs navbar-filter">
       {menuOptions.map(({ code, label }) => (
         <li className="nav-item" key={code}>
           <button
-            className={`nav-link ${activeTab === code ? "active" : ""}`}
+            className={`nav-link active text-primary ${
+              activeTab === code ? "text-black" : "border-bottom text-dark"
+            } filter-navbarli fw-medium`}
             onClick={() => handleClickTab(code)}
           >
             {label}

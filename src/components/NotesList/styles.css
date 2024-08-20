@@ -1,25 +1,123 @@
 .max-height-645 {
   max-height: 645px;
+  max-width: 549px;
 }
 
-/* Barra de scroll para navegadores basados en Webkit (Chrome, Safari) */
 .custom-scrollbar {
-  overflow-y: scroll; /* Siempre muestra el scroll vertical */
+  overflow-y: scroll;
 }
 
 .custom-scrollbar::-webkit-scrollbar {
-  width: 16px; /* Ancho de la barra de scroll */
+  width: 16px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #c0c0c0; /* Color del "thumb" (el control que se arrastra) */
-  border-radius: 4px; /* Borde redondeado */
+  background-color: #f5f5f5;
+  border-radius: 16px;
+  border: 4px solid transparent;
+  box-shadow: inset 0 0 0 5px #c1c1c1; /* Agrega el espacio del borde */
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background-color: #f5f5f5; /* Color del fondo de la pista de scroll */
+  background-color: #f5f5f5;
+  border-color: #e8e8e8;
+  box-shadow: inset -1px 0px 0px 0px #f0f0f0, inset -1px 0px 0px 0px #e8e8e8; /* Segunda sombra interna */
 }
 
 .custom-scrollbar::-webkit-scrollbar-button {
-  display: none; /* Elimina las flechas */
+  display: none;
+}
+
+.border-style {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 68px;
+  padding-right: 25px;
+  background-image: linear-gradient(
+    to right,
+    #6c757d 33%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: top;
+  background-size: 6px 1px;
+  background-repeat: repeat-x;
+}
+
+.note-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  line-height: 18.2px;
+  max-width: 100%;
+  margin-bottom: 8px;
+  letter-spacing: -0.28px;
+}
+
+.note-type {
+  padding-bottom: 7px;
+  padding-top: 2px;
+  margin: 0;
+  font-size: 22px;
+  line-height: 28.6px;
+  letter-spacing: -0.44px;
+}
+
+.employer-name {
+  padding-bottom: 5px;
+  font-size: 14px;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
+}
+
+.last-edit {
+  padding-bottom: 8px;
+  font-size: 14px;
+  color: #6c757d;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
+}
+
+.count {
+  margin-left: 10px;
+  margin-right: 68.5px;
+  font-size: 14px;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
+}
+
+.add-button {
+  padding-left: 16px;
+  padding: 0 12px;
+  border: 1px solid !important;
+}
+
+.add-text {
+  margin-left: 8px;
+  font-size: 16px;
+  line-height: 20.8px;
+  letter-spacing: -0.32px;
+  text-wrap: nowrap;
+}
+
+.notes-resume {
+  padding-left: 68px;
+  padding-right: 32px;
+  margin-bottom: 33px;
+  margin-top: 31px;
+}
+
+.delete-btn {
+  font-size: 14px;
+  line-height: 18.2px;
+  color: #dc3545;
+  letter-spacing: -0.28px;
+}
+
+.note-selected {
+  background-color: #f8f9fa;
+  border-left: 4px solid #a193cc;
+  padding-left: 64px;
 }

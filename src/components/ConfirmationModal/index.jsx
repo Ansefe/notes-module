@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function ConfirmationModal({ show = false, handleClose, handleConfirm }) {
   return (
     <div
-      className={`modal fade ${show ? "show" : ""}`}
+      className={`modal fade ${show ? "show" : ""} mt-3`}
       style={{ display: show ? "block" : "none" }}
       tabIndex="-1"
       aria-labelledby="exampleModalLabel"
@@ -13,7 +13,7 @@ function ConfirmationModal({ show = false, handleClose, handleConfirm }) {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title" id="exampleModalLabel">
-              Confirmación
+              Confirmation
             </h5>
             <button
               type="button"
@@ -22,7 +22,7 @@ function ConfirmationModal({ show = false, handleClose, handleConfirm }) {
             ></button>
           </div>
           <div className="modal-body">
-            ¿Estás seguro de que quieres continuar?
+            Are you sure you want to delete the note?
           </div>
           <div className="modal-footer">
             <button
@@ -30,14 +30,14 @@ function ConfirmationModal({ show = false, handleClose, handleConfirm }) {
               className="btn btn-secondary"
               onClick={handleClose}
             >
-              Cancelar
+              cancel
             </button>
             <button
               type="button"
               className="btn btn-primary"
               onClick={handleConfirm}
             >
-              Confirmar
+              Confirm
             </button>
           </div>
         </div>

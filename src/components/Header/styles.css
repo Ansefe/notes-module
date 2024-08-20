@@ -1,0 +1,30 @@
+.header {
+  height: 61px;
+  width: 100%;
+  padding-left: 28px;
+  padding-right: 21px;
+  padding-top: 16px;
+}
+
+.right-icons {
+  column-gap: 20px;
+  cursor: pointer;
+}
+
+.icon-menu {
+  height: 18px;
+  column-gap: 87px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.menu-list {
+  padding-top: 4px;
+  column-gap: 41px;
+  line-height: 18.2px;
+  letter-spacing: -0.28px;
+}
+
+.icon {
+  column-gap: 7.34px;
+}
