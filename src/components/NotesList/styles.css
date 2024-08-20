@@ -41,6 +41,7 @@
   background-position: top;
   background-size: 6px 1px;
   background-repeat: repeat-x;
+  cursor: pointer;
 }
 
 .note-text {
