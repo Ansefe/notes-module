@@ -15,9 +15,9 @@ function App() {
   return (
     <>
       <Header />
-      <div className="d-flex">
+      <div className="d-flex container-note">
         <div className="bg-secondary min-width-228"></div>
-        <div className="">
+        <div className="container-note">
           <div className="noteContainer">
             <div className="d-flex justify-content-between employer-title align-items-center">
               <span className="employer-notes fw-medium">

@@ -81,8 +81,8 @@ const NotesList = ({ activeTab }) => {
   return (
     <div className="">
       <div className="d-flex">
-        <div className="col-md-6 max-height-645 d-flex flex-column">
-          {/* Mostrar el título y la cantidad de notas */}
+        <div className="max-height-645 d-flex flex-column">
+          {/* título y la cantidad de notas */}
           <div className="d-flex justify-content-between align-items-center notes-resume">
             <span className="note-type fw-bold">
               {labelCurrentTab} Notes

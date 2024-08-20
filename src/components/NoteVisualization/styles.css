@@ -38,6 +38,9 @@
   padding-left: 29px;
   padding-right: 29px;
 }
+.container-note-preview {
+  width: 100%;
+}
 
 .employer-date-container {
   margin-bottom: 30px;
@@ -91,6 +94,7 @@
 
 .no-note-selected {
   height: 100%;
+  width: 100%;
 }
 
 .textarea {

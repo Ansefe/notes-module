@@ -61,7 +61,7 @@ const NoteVisualization = ({
 
   return (
     <>
-      <div className="col-md-6">
+      <div className="container-note-preview">
         {isCreatingNote || selectedNote.id ? (
           <div className="note-visualization-container">
             {!isCreatingNote && (
@@ -182,7 +182,7 @@ const NoteVisualization = ({
           </div>
         ) : (
           !isCreatingNote && (
-            <div className="container no-note-selected d-flex justify-content-center align-items-center">
+            <div className=" no-note-selected d-flex justify-content-center align-items-center">
               Please select a note from the list.
             </div>
           )
